@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, reginaaaa!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ff69b4, #ffb6c1);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .heart {
+            font-size: 5em;
+            color: red;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+        }
+        button {
+            background: #ff1493;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        button:hover {
+            background: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day, reginaaaa!</h1>
+    <div class="heart">❤️</div>
+    <p>I know it's only been a month? Hehe.</p>
+    <p>But do you know how I feel to you? I really love you.</p>
+    <p>Will you be my Valentine forever?</p>
+    <button onclick="alert('I love you too!')">Click to Return the Love</button>
+    
+    <!-- Background music: "It's You" by Keshi (autoplay, loop) -->
+    <audio autoplay loop>
+        <source src="https://www.youtube.com/watch?v=BOBsV_lH6yE" type="audio/wav">
+        <!-- Note: Replace with actual URL for "It's You" by Keshi. For example, find a free audio link from a site like YouTube or a music library. Here's a placeholder; search for "It's You Keshi audio download" and use a direct MP3 link if available. -->
+    </audio>
+    
+    <!-- Alternative: Embed YouTube for "It's You" by Keshi (uncomment if preferred, but autoplay may be blocked) -->
+    <!-- <iframe width="0" height="0" src="https://www.youtube.com/embed/EXAMPLE_VIDEO_ID?autoplay=1&loop=1&playlist=EXAMPLE_VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display:none;"></iframe> -->
+</body>
+</html>
